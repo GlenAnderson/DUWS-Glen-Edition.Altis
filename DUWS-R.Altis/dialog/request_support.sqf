@@ -77,9 +77,9 @@ switch (_index2) do {
         };
     };
     case 5: {
-        if (commandpointsblu1 >= 8) then {
+        if (commandpointsblu1 >= 1) then {
             if (!support_armory_available) then {
-                commandpointsblu1 = commandpointsblu1 - 8;
+                commandpointsblu1 = commandpointsblu1 - 1;
                 ctrlSetText [1000, format["%1",commandpointsblu1]];
                 lbSetColor [2103, index_support_armory, [0, 1, 0, 1]];
                 support_armory_available = true;
