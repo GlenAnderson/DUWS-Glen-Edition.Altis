@@ -33,8 +33,8 @@ switch (_index) do {
     case 7: { // Marshall
         [20, "B_APC_Wheeled_01_cannon_F"] execVM "dialog\spawnVehicle.sqf";
     };
-    case 8: { //HEMETT Transport Covered
-        [7, "B_Truck_01_covered_F"] execVM "dialog\spawnVehicle.sqf";
+    case 8: { //HEMTT Transport
+        [7, "B_T_Truck_01_transport_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 9: { // Pawnee
         [30, "B_Heli_Light_01_armed_F"] execVM "dialog\spawnVehicle.sqf";
@@ -72,8 +72,8 @@ switch (_index) do {
     case 20: { // Bobcat
         [28, "B_APC_Tracked_01_CRV_F"] execVM "dialog\spawnVehicle.sqf";
     };
-    case 21: { // SF SUV
-        [1, "C_Offroad_01_F"] execVM "dialog\spawnVehicle.sqf";
+    case 21: { // Civilian Sedan
+        [1, "C_SUV_01_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 22: { // MLRS Artillery
         [50, "B_MBT_01_mlrs_F"] execVM "dialog\spawnVehicle.sqf";
@@ -81,8 +81,8 @@ switch (_index) do {
     case 23: { // Scorcher Artillery
         [40, "B_MBT_01_arty_F"] execVM "dialog\spawnVehicle.sqf";
     };
-    case 24: { // Fuel Truck (van)
-        [1, "B_G_Van_01_fuel_F"] execVM "dialog\spawnVehicle.sqf";
+    case 24: { // Fuel Van
+        [1, "I_G_Van_01_fuel_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 25: { // Wipeout CAS
         [100, "B_Plane_CAS_01_F"] execVM "dialog\spawnVehicle.sqf";
@@ -128,6 +128,39 @@ switch (_index) do {
     };
     case 39: { //Rhino UP (Stealth)
         [35, "B_AFV_Wheeled_01_up_cannon_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 40: { //Strider unarmed
+        [7, "I_MRAP_03_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 41: { //Strider hmg
+        [12, "I_MRAP_03_hmg_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 42: { //Strider gmg
+        [12, "I_MRAP_03_gmg_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 43: { //Hellcat unarmed
+        [15, "I_Heli_light_03_unarmed_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 44: { //Hellcat armed
+        [30, "I_Heli_light_03_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 45: { //Gendarmarie offroad
+        [2, "B_GEN_Offroad_01_gen_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 46: { //Cargo van gendarmarie
+        [2, "B_GEN_Van_02_transport_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 47: { //Cargo van camo
+        [2, "B_G_Van_02_transport_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 48: { //Prowler AT
+        [5, "B_LSV_01_AT_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 49: { //gla technical pickup truck lmg
+        [2, "I_G_Offroad_01_armed_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 50: { //Caesar BTT racing
+        [10, "C_Plane_Civil_01_racing_F"] execVM "dialog\spawnVehicle.sqf";
     };
 };
 vehic = nil;

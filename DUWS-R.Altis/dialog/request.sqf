@@ -50,7 +50,7 @@ _index1 = lbAdd [2102, "AH-9 Pawnee (30CP)"];                            // 9
 _index1 = lbAdd [2102, "AH-99 Blackfoot (50CP)"];                         // 10
 _index1 = lbAdd [2102, "MH-9 Hummingbird (10CP)"];                        // 11
 _index1 = lbAdd [2102, "M-900 Civilian Copter (7CP)"];                   // 12
-_index1 = lbAdd [2102, "Mi-290Black Taru Sling (20CP)"];                  // 13
+_index1 = lbAdd [2102, "Mi-290 Black Taru Sling (20CP)"];                  // 13
 _index1 = lbAdd [2102, "UH-80 Ghosthawk (20CP)"];                         // 14
 _index1 = lbAdd [2102, "CH-67 Huron (20CP)"];                             // 15
 _index1 = lbAdd [2102, "IFV-6c Panther (1x HMG 1x GMG) (30CP)"];                          // 16
@@ -77,6 +77,17 @@ _index1 = lbAdd [2102, "Black Wasp II (100CP)"];                             // 
 _index1 = lbAdd [2102, "Black Wasp II (Stealth) (100CP)"];                   // 37
 _index1 = lbAdd [2102, "Rhino MGS (30CP)"];                                 // 38
 _index1 = lbAdd [2102, "Rhino MGS (Urban) (35CP)"];                              // 39
+_index1 = lbAdd [2102, "Strider (Unarmed) (7CP)"];                              // 40
+_index1 = lbAdd [2102, "Strider (1x HMG) (12CP)"];                              // 41
+_index1 = lbAdd [2102, "Strider (1x GMG) (12CP)"];                              // 42
+_index1 = lbAdd [2102, "Hellcat (Unarmed) (15CP)"];                              // 43
+_index1 = lbAdd [2102, "Hellcat (Armed) (30CP)"];                              // 44
+_index1 = lbAdd [2102, "Pickup Truck (Gendarmerie) (2CP)"];                              // 45
+_index1 = lbAdd [2102, "Cargo Van (Gendarmerie) (2CP)"];                              // 46
+_index1 = lbAdd [2102, "Cargo Van (Camoflauge) (2CP)"];                              // 47
+_index1 = lbAdd [2102, "Prowler (AT) (5CP)"];                              // 48
+_index1 = lbAdd [2102, "Pickup Truck (1x LMG) (2CP)"];                              // 49
+_index1 = lbAdd [2102, "Caesar BTT (Racing) (10CP)"];                              // 50
 lbSetCurSel [2102, 0];
 
 // Supports  !!! CHECK TO ADD AT INIT
