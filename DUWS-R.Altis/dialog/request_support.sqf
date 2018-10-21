@@ -146,9 +146,9 @@ switch (_index2) do {
         };
     };
     case 9: {
-        if (commandpointsblu1 >= 3) then  {
+        if (commandpointsblu1 >= 2) then  {
             if (!support_helotaxi_available) then {
-                commandpointsblu1 = commandpointsblu1 - 3;
+                commandpointsblu1 = commandpointsblu1 - 2;
                 ctrlSetText [1000, format["%1",commandpointsblu1]];
                 lbSetColor [2103, index_support_helotaxi, [0, 1, 0, 1]];
                 playSound "boots";
@@ -195,9 +195,9 @@ switch (_index2) do {
         };
     };
     case 12: {
-        if (commandpointsblu1 >= 2) then {
+        if (commandpointsblu1 >= 1) then {
             if (!support_boattaxi_available) then {
-                commandpointsblu1 = commandpointsblu1 - 2;
+                commandpointsblu1 = commandpointsblu1 - 1;
                 ctrlSetText [1000, format["%1",commandpointsblu1]];
                 lbSetColor [2103, index_support_boattaxi, [0, 1, 0, 1]];
                 support_boattaxi_available = true;

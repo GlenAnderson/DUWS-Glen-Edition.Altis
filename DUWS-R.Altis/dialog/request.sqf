@@ -38,10 +38,10 @@ lbSetCurSel [2101, 0];
 
 // VEHICLES
 _index1 = lbAdd [2102, "Pickup Truck (2CP)"];       // 0
-_index1 = lbAdd [2102, "Lorry (2CP)"];       // 1
+_index1 = lbAdd [2102, "Truck (Transport) (2CP)"];       // 1
 _index1 = lbAdd [2102, "Prowler (Unarmed) (3CP)"];                         // 2
 _index1 = lbAdd [2102, "Prowler (1x LMG 1x HMG) (5CP)"];                          // 3
-_index1 = lbAdd [2102, "Hunter (unarmed) (7CP)"];                           // 4
+_index1 = lbAdd [2102, "Hunter (Unarmed) (7CP)"];                           // 4
 _index1 = lbAdd [2102, "Hunter (1x HMG) (12CP)"];                              // 5
 _index1 = lbAdd [2102, "Hunter (1x GMG) (15CP)"];                              // 6
 _index1 = lbAdd [2102, "AMV-7 Marshall (20CP)"];                          // 7
@@ -57,11 +57,11 @@ _index1 = lbAdd [2102, "IFV-6c Panther (1x HMG 1x GMG) (30CP)"];                
 _index1 = lbAdd [2102, "Offroad ATV (FREE)"];                                      // 17
 _index1 = lbAdd [2102, "IFV-6c Cheetah (AA) (50CP)"];                          // 18
 _index1 = lbAdd [2102, "M2A1 Slammer (40CP)"];                            // 19
-_index1 = lbAdd [2102, "CRV-6e Bobcat (28CP)"];                           // 20
-_index1 = lbAdd [2102, "SF SUV (1CP)"];                                   // 21
+_index1 = lbAdd [2102, "CRV-6e Bobcat (fuel, repair, ammo) (20CP)"];                           // 20
+_index1 = lbAdd [2102, "Civilian Sedan (1CP)"];                                   // 21
 _index1 = lbAdd [2102, "MLRS Artillary (50CP)"];                         // 22
 _index1 = lbAdd [2102, "Scorcher Artillary (40CP)"];                     // 23
-_index1 = lbAdd [2102, "Fuel Truck (1CP)"];                             // 24
+_index1 = lbAdd [2102, "Truck (Fuel) (2CP)"];                             // 24
 _index1 = lbAdd [2102, "A-164 Wipeout (CAS) (100CP)"];          // 25
 _index1 = lbAdd [2102, "M2A4 Slammer (Urban) (45CP)"];                          // 26
 _index1 = lbAdd [2102, "UAV Stomper (Armed) (20CP)"];                 // 27
@@ -86,8 +86,13 @@ _index1 = lbAdd [2102, "Pickup Truck (Gendarmerie) (2CP)"];                     
 _index1 = lbAdd [2102, "Cargo Van (Gendarmerie) (2CP)"];                              // 46
 _index1 = lbAdd [2102, "Cargo Van (Camoflauge) (2CP)"];                              // 47
 _index1 = lbAdd [2102, "Prowler (AT) (5CP)"];                              // 48
-_index1 = lbAdd [2102, "Pickup Truck (1x LMG) (2CP)"];                              // 49
-_index1 = lbAdd [2102, "Caesar BTT (Racing) (10CP)"];                              // 50
+_index1 = lbAdd [2102, "Pickup Truck (1x LMG) (3CP)"];                              // 49
+_index1 = lbAdd [2102, "Caesar BTT (1CP)"];                              // 50
+_index1 = lbAdd [2102, "Caesar BTT (Racing) (2CP)"];                              // 51
+_index1 = lbAdd [2102, "Pickup Truck (Repair) (2CP)"];                              // 52
+_index1 = lbAdd [2102, "AFV-4 Gorgon (20CP)"];                              // 53
+_index1 = lbAdd [2102, "Pickup Truck (AT) (3CP)"];                              // 54
+_index1 = lbAdd [2102, "MB 4WD	 (2CP)"];                              // 55
 lbSetCurSel [2102, 0];
 
 // Supports  !!! CHECK TO ADD AT INIT
@@ -100,10 +105,10 @@ index_support_armory = lbAdd [2103, "Armory (1CP)"];                           /
 index_support_pFLIR = lbAdd [2103, "Personal FLIR display (20CP)"];            // 6
 index_support_uavrecon = lbAdd [2103, "UAV Recon (10CP)"];                     // 7
 index_support_refit = lbAdd [2103, "Vehicle Refit (3CP)"];                     // 8
-index_support_helotaxi = lbAdd [2103, "Helicopter Taxi (3CP)"];                // 9
+index_support_helotaxi = lbAdd [2103, "Helicopter Taxi (2CP)"];                // 9
 index_support_cluster = lbAdd [2103, "Mk.20 II CBU (25CP)"];                   // 10
 index_support_training = lbAdd [2103, "Specialized Infantry training (20CP)"]; // 11
-index_support_boattaxi = lbAdd [2103, "Boat Taxi (2CP)"];                      // 12
+index_support_boattaxi = lbAdd [2103, "Boat Taxi (1CP)"];                      // 12
 
 //  lbSetCurSel [2103, 0];
 if (support_supplydrop_available) then {

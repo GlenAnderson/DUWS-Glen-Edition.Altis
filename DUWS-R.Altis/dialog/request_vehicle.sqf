@@ -69,7 +69,7 @@ switch (_index) do {
     case 19: { // Slammer
         [40, "B_MBT_01_cannon_F"] execVM "dialog\spawnVehicle.sqf";
     };
-    case 20: { // Bobcat
+    case 20: { // Bobcat fuel repair ammo
         [28, "B_APC_Tracked_01_CRV_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 21: { // Civilian Sedan
@@ -82,7 +82,7 @@ switch (_index) do {
         [40, "B_MBT_01_arty_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 24: { // Fuel Van
-        [1, "I_G_Van_01_fuel_F"] execVM "dialog\spawnVehicle.sqf";
+        [2, "I_G_Van_01_fuel_F"] execVM "dialog\spawnVehicle.sqf";
     };
     case 25: { // Wipeout CAS
         [100, "B_Plane_CAS_01_F"] execVM "dialog\spawnVehicle.sqf";
@@ -156,11 +156,26 @@ switch (_index) do {
 	case 48: { //Prowler AT
         [5, "B_LSV_01_AT_F"] execVM "dialog\spawnVehicle.sqf";
     };
-	case 49: { //gla technical pickup truck lmg
+	case 49: { //Pickup truck armed - gla technical
         [2, "I_G_Offroad_01_armed_F"] execVM "dialog\spawnVehicle.sqf";
     };
-	case 50: { //Caesar BTT racing
+	case 50: { //Caesar BTT
+        [2, "C_Plane_Civil_01_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 51: { //Caesar BTT racing
         [10, "C_Plane_Civil_01_racing_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 52: { //Pickup truck repair camo
+        [2, "I_G_Offroad_01_repair_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 53: { //Gorgon nato camo
+        [20, "I_APC_Wheeled_03_cannon_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 54: { //Pickup truck AT
+        [3, "B_G_Offroad_01_AT_F"] execVM "dialog\spawnVehicle.sqf";
+    };
+	case 55: { //MB 4WD
+        [2, "I_C_Offroad_02_unarmed_F"] execVM "dialog\spawnVehicle.sqf";
     };
 };
 vehic = nil;
