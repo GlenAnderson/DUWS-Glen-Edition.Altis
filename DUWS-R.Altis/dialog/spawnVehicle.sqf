@@ -25,6 +25,19 @@ if (commandpointsblu1 >= _requiredPoints) then {
                 };
             }];
         };
+		
+		if(typeOf vehic == "I_MRAP_03_F" || typeOf vehic == "I_MRAP_03_hmg_F" || typeOf vehic == "I_MRAP_03_gmg_F") then {
+			vehic setObjectTextureGlobal [0,'\A3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa']; 
+			vehic setObjectTextureGlobal [1,'\A3\data_f\vehicles\turret_co.paa'];
+		};
+		
+		if(typeOf vehic == "I_APC_Wheeled_03_cannon_F") then {
+			vehic setObjectTextureGlobal [0, "A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_co.paa"]; 
+			vehic setObjectTextureGlobal [1, "A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext2_co.paa"]; 
+			vehic setObjectTextureGlobal [2, "A3\Armor_F_Gamma\APC_Wheeled_03\Data\rcws30_co.paa"]; 
+			vehic setObjectTextureGlobal [3, "A3\Armor_F_Gamma\APC_Wheeled_03\Data\apc_wheeled_03_ext_alpha_co.paa"];
+		};
+		
         hint "Vehicle ready !";
         } else {
             hint "Not enough room to spawn vehicle!";
