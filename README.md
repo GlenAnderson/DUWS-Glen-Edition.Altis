@@ -1,6 +1,6 @@
 # DUWS Glen Edition
 
-DUWS is an Arma 3 PvE scenario generator mission. This is Glen's revision.
+DUWS is an Arma 3 PvE scenario generator mission. This is an Orb Interactive revision.
 
 DUWS was originally created by Kibot.
 https://steamcommunity.com/sharedfiles/filedetails/?id=167274881
